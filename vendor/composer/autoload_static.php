@@ -340,8 +340,8 @@ class ComposerStaticInit9c781b1e4728b45d8a910607e03e5d60
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -507,6 +507,7 @@ class ComposerStaticInit9c781b1e4728b45d8a910607e03e5d60
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\CalculatorController' => __DIR__ . '/../..' . '/app/Http/Controllers/CalculatorController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
@@ -5618,6 +5619,7 @@ class ComposerStaticInit9c781b1e4728b45d8a910607e03e5d60
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
+        'Tests\\Unit\\CalculatorTest' => __DIR__ . '/../..' . '/tests/Unit/CalculatorTest.php',
         'Tests\\Unit\\ExampleTest' => __DIR__ . '/../..' . '/tests/Unit/ExampleTest.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',

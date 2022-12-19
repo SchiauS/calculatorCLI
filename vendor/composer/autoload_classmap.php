@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\Http\\Controllers\\CalculatorController' => $baseDir . '/app/Http/Controllers/CalculatorController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
@@ -5119,6 +5120,7 @@ return array(
     'Tests\\CreatesApplication' => $baseDir . '/tests/CreatesApplication.php',
     'Tests\\Feature\\ExampleTest' => $baseDir . '/tests/Feature/ExampleTest.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
+    'Tests\\Unit\\CalculatorTest' => $baseDir . '/tests/Unit/CalculatorTest.php',
     'Tests\\Unit\\ExampleTest' => $baseDir . '/tests/Unit/ExampleTest.php',
     'TheSeer\\Tokenizer\\Exception' => $vendorDir . '/theseer/tokenizer/src/Exception.php',
     'TheSeer\\Tokenizer\\NamespaceUri' => $vendorDir . '/theseer/tokenizer/src/NamespaceUri.php',
